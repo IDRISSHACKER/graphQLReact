@@ -1,0 +1,23 @@
+.btn{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    white-space: inherit;
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    transition: all linear 300ms;
+}
+
+.btn-default{
+    background: #30694b;
+    &:hover{
+        background: darken($color: #30694b, $amount: 5);
+    }
+    /*border: solid 1px lighten($color: #30694b, $amount: 10);*/
+}
